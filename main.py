@@ -32,7 +32,7 @@ graph = graph_builder.compile(
 
 
 async def main():
-    res = await graph.ainvoke({'messages': [{'role': 'user', 'content': '你好，我是周代琳，你介绍下你自己'}]}, config={
+    res = await graph.ainvoke({'messages': [{'role': 'user', 'content': '你好，我是XXX，你介绍下你自己'}]}, config={
         'configurable': {
             'thread_id': '142314'
         }
